@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume{
+    background-color: #B2C8BA;
+    width: 1000px;
+    height: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    font-family: 'Red Hat Display', sans-serif;  
+}
+
+.left{
+    background-color:#04364A;
+    padding: 40px;
+    color: white;  
+ }
+
+ 
+.left hr {
+    border: solid white 1.5px; 
+  }
+
+ .right{
+    padding-left: 20px;
+    background-color:#DAFFFB ;
+    padding-right: 20px;
+    color: black;
+}
+
+.right hr{
+    border: solid #04364A 1.5px;
+    
+}
+
+img{
+    border-radius: 80%;
+    border: solid white 6px;      
+}
+
+.img{
+    padding-bottom: 20px;
+}
+
+.contact{
+    padding: 10px;
+}
+
+.contact a{
+    color: white;
+}
+
+.gmail{
+    display: flex; 
+    padding-top: 10px;  
+}
+
+.linkden{
+    display: flex;  
+}
+
+.git{
+    display: flex;
+}
+
+.icon{
+    padding-right: 10px;
+}
+
+.skills{
+    padding: 10px;
+}
+
+.skills ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.languages{
+    padding: 10px;
+}
+
+.languages ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.interest{
+    padding: 10px;
+}
+
+.interest ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.headline{
+    text-align: center;
+    font-family: 'Rasa', serif;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+h4{
+    color: #04364A;
+}
+
+.profile p{
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.education ul{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects p{
+    text-align: justify;
+}
+
+.p1,.p2,.p3{
+    padding-top: 10px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
